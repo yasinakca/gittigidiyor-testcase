@@ -7,8 +7,8 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPage extends PageObject {
 
     public static final String LOGIN_HEADER = "Üye Girişi";
-    public static final String IDENTITY  = "yasinakcadev@gmail.com"; //email adresim gelecek
-    public static final String PASSWORD = "Asdfg55^^"; //ve tabiki sifre
+    public static final String IDENTITY  = ""; //email adresim gelecek
+    public static final String PASSWORD = ""; //ve tabiki sifre
 
     public LoginPage(WebDriver driver) {
         super(driver);
